@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    width: 100%;
+}
+
+ .nav-top {
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(63, 177, 63); */
+    background-color: rgb(130, 182, 33);
+    display: flex;
+}
+
+ .nav-top ul {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+}
+
+ .nav-top ul li {
+    padding: 10px 20px;
+}
+
+ .nav-top ul a {
+   font-size: 18px;
+    text-decoration: none;
+    color: white;  
+}
+
+ .nav-top .search-bar {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+ .nav-top .search-bar input {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+
+ .nav-top .buttons {
+    width: 20%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+ .nav-top .buttons li {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 3px;
+    border-radius: 50px;
+    background-color: red;
+
+}
+
+ .nav-top .buttons li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-bottam {
+    width: 100%;
+    height: 120px;
+    /* background-color: rgb(78, 73, 73); */
+    background-color: white;
+    display: flex;
+    
+}
+
+.left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left li {
+   list-style: none;
+   font-size: 25px;
+   font-weight: bold; 
+   padding: 0px 15px;
+   color: rgb(130, 182, 33);
+
+}
+
+
+.center{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.center .box {
+    width: 260px;
+    height: 200px;
+    /* background-color: blueviolet; */
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.center .box img {
+    height: 190px;
+    border-radius: 50%;
+}
+
+.right{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right li {
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold; 
+    padding: 0px 15px;
+    color: rgb(130, 182, 33);
+ }
+
+ .home {
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/travel-accessories-objects-yellow-background_117255-1354.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+
+ .home .text-box {
+    position: absolute;
+    bottom: 51px;
+    left: 92px;
+ }
+
+ .home .heading1 {
+    font-size: 60px;
+ }
+
+ .home .heading2 {
+    font-size: 80px;
+ }
+
+ .home p {
+    width: 53%;
+    margin-left: 6px;
+    /* position: absolute; */
+    font-size: 17px;
+ }
+
+ .home li {
+    list-style: none;
+    margin: 17px 0px;
+    margin-left: 6px;
+ }
+
+ .home li a {
+    font-size: 25px;
+    text-decoration: none;
+ }
